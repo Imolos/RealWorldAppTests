@@ -1,0 +1,17 @@
+{
+  "name": "cypresstestsforrealworldapp",
+  "version": "1.0.0",
+  "description": "Just test for real world app",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --record false -s "
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "Imolo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  }
+}
