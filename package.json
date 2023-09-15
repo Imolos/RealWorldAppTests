@@ -4,14 +4,20 @@
   "description": "Just test for real world app",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --record false -s "
+    "test": "cypress run --record false -s ",
+    "cypress": "cypress:open"
   },
   "keywords": [
     "Cypress"
   ],
   "author": "Imolo",
   "license": "ISC",
+
   "devDependencies": {
     "cypress": "^13.2.0"
+  },
+  "engines": {
+    "node": ">= 18.0.0",
+    "npm": ">=9.0.0"
   }
 }
